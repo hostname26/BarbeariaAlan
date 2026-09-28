@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/S%C3%A1vio/Downloads/index.html#localizacao -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbearia Estilo | Alan</title>
+<meta name="description" content="Barbearia Estilo - atendimento profissional e cortes de alta qualidade desde 2018.">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#111;
+    color:#fff;
+    line-height:1.5;
+  }
+  a{text-decoration:none;color:inherit}
+  .hero{
+    min-height:100vh;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    overflow:hidden;
+    background:
+      linear-gradient(rgba(0,0,0,.62),rgba(0,0,0,.72)),
+      url("https://static.wixstatic.com/media/fe38da_898072529ebf4f658d708c984310d337~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ai-generated-IMAGE.jpg")
+      center/cover no-repeat;
+  }
+  .hero-content{max-width:900px;padding:40px 24px}
+  .since{
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:14px;
+    margin-bottom:22px;
+    color:#d6b36a;
+  }
+  h1{
+    font-size:clamp(42px,8vw,88px);
+    line-height:.95;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:28px;
+  }
+  h1 span{color:#d6b36a}
+  .hero p{
+    max-width:650px;
+    margin:auto;
+    font-size:clamp(16px,2vw,21px);
+    color:#ddd;
+  }
+  .btn{
+    display:inline-block;
+    margin-top:32px;
+    padding:14px 28px;
+    border:1px solid #d6b36a;
+    color:#d6b36a;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    transition:.25s;
+  }
+  .btn:hover{background:#d6b36a;color:#111}
+  section{padding:90px 7%}
+  .section-title{
+    text-align:center;
+    font-size:clamp(28px,4vw,46px);
+    text-transform:uppercase;
+    margin-bottom:50px;
+  }
+  .section-title::after{
+    content:"";
+    display:block;
+    width:55px;
+    height:2px;
+    background:#d6b36a;
+    margin:18px auto 0;
+  }
+  .categories{
+    background:#171717;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+  }
+  .card{
+    position:relative;
+    height:360px;
+    overflow:hidden;
+    background:#222;
+  }
+  .card img{
+    width:100%;height:100%;object-fit:cover;
+    display:block;
+    transition:transform .5s;
+  }
+  .card:hover img{transform:scale(1.06)}
+  .card::after{
+    content:"";
+    position:absolute;inset:0;
+    background:linear-gradient(transparent 35%,rgba(0,0,0,.82));
+  }
+  .card-title{
+    position:absolute;
+    z-index:2;
+    bottom:22px;
+    left:20px;
+    right:20px;
+    text-align:center;
+    font-size:17px;
+    font-weight:bold;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .quality{
+    min-height:500px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:55px;
+    background:#0c0c0c;
+  }
+  .quality img{
+    width:100%;
+    max-height:470px;
+    object-fit:cover;
+    border-radius:2px;
+  }
+  .quality-text h2{
+    font-size:clamp(32px,5vw,58px);
+    text-transform:uppercase;
+    margin-bottom:20px;
+  }
+  .quality-text p{color:#ccc;font-size:18px;max-width:520px}
+  .location{
+    text-align:center;
+    background:#171717;
+  }
+  .location h2{font-size:40px;text-transform:uppercase;margin-bottom:28px}
+  .location p{color:#ccc;margin:8px 0}
+  .instagram{
+    display:inline-block;
+    margin-top:25px;
+    color:#d6b36a;
+    font-weight:bold;
+  }
+  footer{
+    text-align:center;
+    padding:30px 20px;
+    background:#080808;
+    color:#888;
+    font-size:13px;
+  }
+  .reveal{
+    opacity:0;
+    transform:translateY(25px);
+    transition:opacity .7s,transform .7s;
+  }
+  .reveal.visible{opacity:1;transform:none}
+  @media(max-width:800px){
+    .categories{grid-template-columns:repeat(2,1fr)}
+    .quality{grid-template-columns:1fr}
+    .quality img{max-height:350px}
+  }
+  @media(max-width:520px){
+    section{padding:65px 5%}
+    .categories{grid-template-columns:1fr}
+    .card{height:300px}
+    h1{font-size:48px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="since">Desde 2018</div>
+    <h1>Barbearia <span>do Alan</span></h1>
+    <p>“Garanta o melhor cuidado para o seu cabelo, com atendimento profissional e resultados de alta qualidade.”</p>
+    <a class="btn" href="file:///C:/Users/S%C3%A1vio/Downloads/index.html#localizacao">Conheça o Estilo</a>
+  </div>
+</header>
+
+<section class="categories">
+  <div class="card reveal visible">
+    <img src="./Barbearia Estilo _ Alan_files/ai-generated-IMAGE.jpg" alt="Cortes de cabelo">
+    <div class="card-title">Cortes de cabelo</div>
+  </div>
+  <div class="card reveal visible">
+    <img src="./Barbearia Estilo _ Alan_files/ai-generated-IMAGE(1).jpg" alt="Barba e grooming">
+    <div class="card-title">Barba e grooming</div>
+  </div>
+  <div class="card reveal visible">
+    <img src="./Barbearia Estilo _ Alan_files/ai-generated-IMAGE(2).jpg" alt="Estilo moderno">
+    <div class="card-title">Estilo moderno</div>
+  </div>
+  <div class="card reveal visible">
+    <img src="./Barbearia Estilo _ Alan_files/ai-generated-IMAGE(3).jpg" alt="Estilo premium">
+    <div class="card-title">Estilo premium</div>
+  </div>
+</section>
+
+<section class="quality">
+  <img class="reveal visible" src="./Barbearia Estilo _ Alan_files/ai-generated-IMAGE(4).jpg" alt="Qualidade de corte">
+  <div class="quality-text reveal visible">
+    <h2>Qualidade<br>de corte</h2>
+    <p>Garanta o melhor cuidado para o seu cabelo, com atendimento profissional e resultados de alta qualidade.</p>
+  </div>
+</section>
+
+<section class="location" id="localizacao">
+  <h2>Estilo</h2>
+  <p><strong>Localização</strong></p>
+  <p>Passarela Natividade - RJ</p>
+  <p>Rua Monsenhor Miguel dos Reis Melo, número 21, Natividade - RJ</p>
+  <a class="instagram" href="https://www.instagram.com/alanfonseca27/" target="_blank" rel="noopener">@alanfonseca27</a>
+</section>
+
+<footer>© 2026 BARBEARIA ESTILO. TODOS OS DIREITOS RESERVADOS.</footer>
+
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {threshold:.12});
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+
+</body></html>
